@@ -1,0 +1,61 @@
+.menuCabecera{
+    background-color: #AADAE5;
+    width: 100%;
+    }
+    .listamenu li{
+        display: inline;
+         padding: 10px;
+        }
+    .listamenu{
+        padding: 10px;
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    li a{
+        text-decoration: none;
+    }
+    li a:hover{
+        color: #E2430C;
+        background-color:darkblue;
+    }
+    .listamenu li{
+        border-right: solid 2px black;
+    }
+    .listamenu li: :last-child{
+ border-right: none;
+    }
+    *{
+    padding:  0; 
+    margin: 0;
+    }
+    .banner{
+        width: 100%;
+        height: 350px;
+        background-image: url("../imagenes/education-day-arrangement-table.jpg"); 
+        background-size: contain;
+       background-repeat: no-repeat;
+    }
+  
+    .marcoColumnas{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+    .columna{
+        flex: 1;
+        background-color: #e9a238;
+        border: 1px solid #f5580f;
+    }
+    .footer{
+        width: 100%;
+        height: 120px;
+        background-color: #1bd161 ;
+    }
+    .colorVerde{ 
+        background-color: palevioletred;
+    }
+    .colorAzul{
+        background-color: palegreen;
+    }
