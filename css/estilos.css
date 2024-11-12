@@ -35,6 +35,8 @@
         background-image: url("../imagenes/education-day-arrangement-table.jpg"); 
         background-size: contain;
        background-repeat: no-repeat;
+       background-position-y: 20%;
+       
     }
   
     .marcoColumnas{
@@ -47,6 +49,9 @@
         flex: 1;
         background-color: #e9a238;
         border: 1px solid #f5580f;
+         
+       
+
     }
     .footer{
         width: 100%;
@@ -54,8 +59,29 @@
         background-color: #1bd161 ;
     }
     .colorVerde{ 
-        background-color: palevioletred;
+        background-color: #AADAE5;
     }
     .colorAzul{
-        background-color: palegreen;
+       background-color:#E2430C;
     }
+    .marcoColumnas img{
+
+        width: 100%;
+    }
+    .formulario{
+ width: 100%;
+ 
+
+    }
+    form{
+
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    input textarea{
+width: 50%;
+margin: 10px;
+    }
+    
