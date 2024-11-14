@@ -22,7 +22,7 @@
     .listamenu li{
         border-right: solid 2px black;
     }
-    .listamenu li: :last-child{
+    .listamenu li:last-child{
  border-right: none;
     }
     *{
